@@ -10,6 +10,9 @@ Install once to make the skill available to all projects.
 
 ```bash
 mkdir -p ~/.config/opencode/skills
+```
+
+```bash
 git clone https://github.com/dt665m/memento-skill.git ~/.config/opencode/skills/memento
 ```
 
