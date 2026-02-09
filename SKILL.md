@@ -22,7 +22,7 @@ work, look in your `.memento` for guidance.  Structure your `.memento` efficient
 such that future you can find relevant information quickly.  Anytime there are
 insights that will help future you, update `.memento`.  It should be
 constantly maintained such that deprecated or redundant information should be
-pruned.
+pruned while you updated it with fresh learnings.
 
 **This skill must be consulted at the start of every task and updated
 whenever necessary.**
@@ -51,7 +51,7 @@ If no `.memento` exists yet, create it.  Example Design:
 
 ## Corrections
 | Date | Source | What Went Wrong | What To Do Instead |
-|------|--------|----------------|-------------------|
+|------|--------|-----------------|--------------------|
 ```
 
 These are just guidelines, design it how you see fit. `.memento` does not need to
