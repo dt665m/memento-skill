@@ -27,12 +27,18 @@ pruned while you updated it with fresh learnings.
 **This skill must be consulted at the start of every task and updated
 whenever necessary.**
 
-## Find Context
+## Retrieval (Mandatory)
 
 Invariants
 
 - Never write to `.memento` without first scanning it for related context.
 - Never store secrets, credentials, tokens, or personally identifiable information
+
+Before starting any task, you MUST:
+
+1. Extract task-specific keywords (symbols, concepts).
+2. Perform a search across **`.memento`**.
+3. Apply the relevant good/bad patterns and insights.
 
 On every task, search `.memento` for relevant context and apply the context to your
 knowledge base.  There is no need to announce or report any findings in `.memento`.
@@ -43,11 +49,12 @@ If no `.memento` exists yet, create it.  Example Design:
 ├── preferences.md                  # User preferences / Steering
 ├── good_patterns.md                # Good workflows and patterns
 ├── bad_patterns.md                 # Bad workflows and patterns
-└── notes.md                        # Domain notes that are important 
+└── insights.md                     # Deep project / domain insights
 ```
 
 ```markdown
 # Bad Patterns
+
 
 ## Corrections
 | Date | Source | What Went Wrong | What To Do Instead |
